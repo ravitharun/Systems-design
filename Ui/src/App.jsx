@@ -7,8 +7,7 @@ function App() {
   const getUser = async () => {
     const resp = await axios.get("/api/user");
     setUser(resp.data.data);
-  };
-
+  }
   return (
     <div>
       <h1>React App</h1>
